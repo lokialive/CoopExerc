@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*Page Styles */
+body {
+  background-color: #F7F7F7;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+}
+
+/* Header Styles */
+
+.header {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  height: 60px;
+  background-color: white;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+  color: #2649D8;
+}
+
+.nav-box {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.block {
+  width: 50%;
+  display: inline;
+}
+
+#left {
+  float: left;
+  text-align: left;
+}
+
+#right {
+  float: right;
+  text-align: right;
+}
+
+
+
+/* Card Styles */
+
+.card {
+  width: 644px;
+  height: 435px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+
+  /* Make the card remain in the center of the page */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  float: left;
+  height: 100%;
+  width: 154px;
+  object-fit: cover;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.tag {
+  position: relative;
+  margin: 20px;
+  padding: 8px 12px;
+  float: right;
+  text-align: center;
+  background-color: rgba(47, 91, 234, 1);
+  border-radius: 10px;
+}
+
+.tag p {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0px;
+}
+
+.card-detail {
+  padding-left: 184px;
+}
+
+.start-date {
+  margin-top: 8px;
+}
+
+.card h2 {
+  margin-top: 62px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #2F5BEA;
+}
+
+.card h1 {
+  margin-top: 8px;
+  margin-bottom: 48px;
+  font-family: 'Lora';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  letter-spacing: 0.7px;
+  color: #1F2126;
+}
+
+.para-text {
+  font-size: 12px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #74757C;
+  margin: 0%;
+}
+
+.info {
+  margin: 16px 0px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 10px;
+  color: #1F2126;
+}
+
+.mid-line {
+  margin-top: 7px;
+  width: 396px;
+  display: inline;
+  position: relative;
+  height: 0px;
+  border: 0.7px solid #D4D4D4;
+  float: left;
+  background-color: #D4D4D4;
+}
+
+
+.detail-link {
+  margin-top: 18px;
+}
+
+a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(47, 91, 234, 1);
+  text-decoration-line: none;
+}
+
+.container {
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: 20% 30% 25% 25%;
+  justify-items: start;
+}
+
+.container2 {
+  margin-top: 6%;
+  display: grid;
+  justify-items: start;
+}
+
+
+/* Progress Styles*/
+
+.progress-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.day-text {
+  margin-bottom: 8px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  color: #2C2E30;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 490px;
+  height: 20px;
+  background-color: rgba(44, 159, 44, 0.1);
+  ;
+}
+
+.bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  background: #2C9F2C;
+}
