@@ -11,20 +11,20 @@ The backend is based on Django, enable admin function. Data Model is Car.
 
 1. Go to the backend folder
 
-`cd backend`
+  `cd backend`
 
 2. Do the migrations
 
-`python manage.py makemigrations`
+  `python manage.py makemigrations`
 `python manage.py migrate`
 
 3. Load initial data
 
-`python manage.py loaddata init.json`
+  `python manage.py loaddata init.json`
 
 4. Run the backend server
 
-`python manage.py runserver`
+  `python manage.py runserver`
 
 
 
@@ -49,16 +49,16 @@ The extraClient folder is the second version.
 
 1. Go to the client folder
 
-if test client foler: `cd client`
+  if test client foler: `cd client`
 
-if test extraClient folder: `cd extraClient`
+  if test extraClient folder: `cd extraClient`
 
 
 2. install the dependencies 
 
-`npm install`
+  `npm install`
 
 
 3. start the frontend
 
-`npm start`
+  `npm start`
