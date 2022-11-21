@@ -17,8 +17,9 @@ The backend is based on Django, enable admin function. Data Model is Car.
 
         cd backend
         
-2. To enable cross field data transfer
+2. Install related dependencies.
 
+        python -m pip install djangorestframework
         python -m pip install django-cors-headers
 
 2. To migrate the database open terminal in project directory and type.
