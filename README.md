@@ -5,7 +5,7 @@ This is a project whose backend uses django framework and frontend use React fra
 
 ## Backend
 
-The backend is based on Django, enable admin function. Data Model is Car.
+The backend is based on Django, enabling admin function. Data Model is Car.
 
 ### To test on Local environment, please follow the listed command
 
