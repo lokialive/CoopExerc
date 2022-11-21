@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
+
+
+/* Page Styles */
+
+body {
+    background-color: #F7F7F7;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* Header Styles */
+.navbar {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+    display: inline-block;
+} 
+
+.padding {
+    padding: 8.5px 0px;
+}
+
+.navbar-text {
+    padding:0%;
+    margin: 0%;
+    color: #2649D8;
+}
+
+#left {  
+    margin-left: 120px;
+}
+
+#right {
+    margin-right: 120px;
+} 
+
+
+
+/* Card Styles */
+
+.no-padding{
+    padding: 0px;
+}
+
+.my-card {
+    width: 644px;
+    height: 435px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+
+    /* Make the card remain at the center of the page */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0%;
+}
+
+.image {
+    left:0%;
+    height: 100%;
+    width: 154px;
+    border-radius: 8px 0px 0px 8px;
+    object-fit: cover;
+    float: left;
+    position: relative;
+}
+
+.detail {
+    padding-left: 184px;;
+}
+
+.tag {
+    margin: 20px;
+    padding: 8px 12px;
+    float:right;
+    text-align: center;
+    background-color: rgba(47, 91, 234, 1);
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;       
+}
+
+.start-text {
+    margin-top: 62px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2F5BEA;
+}
+
+.title-text {
+    margin-top: 8px;
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.7px;
+    color: #1F2126;
+    margin-bottom: 48px;
+}
+
+.para-text {
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #74757C;
+}
+
+.detail-text {
+    margin:5px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    color: #1F2126;
+}
+
+hr {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.detail-link {
+    margin-top: 20px;
+}
+
+a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(47, 91, 234, 1);
+    text-decoration-line: none;
+}
+
+
+/* Progress Styles*/
+
+.progress-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;   
+}
+
+.day-text {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #2C2E30;
+}
+
+.progress {
+    height: 20px;
+    width: 490px;
+    background-color: rgba(44, 159, 44, 0.1);
+    border-radius: 0px 0px 8px 0px;
+}
+
+.progress-bar {  
+    height: 20px;
+    background: #2C9F2C;
+}
+
