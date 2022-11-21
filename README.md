@@ -6,7 +6,7 @@ This is a project whose backend uses django framework and frontend use React fra
 If you want to try the whole project. Please start the backend first, then the front end.
 
 
-## Backend
+## Backend (Prefer Python3.9)
 
 The backend is based on Django, enable admin function. Data Model is Car.
 
